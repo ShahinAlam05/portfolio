@@ -131,3 +131,28 @@ footer{
     margin-bottom: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .top-banner{
+        flex-direction: column;
+    }
+    .half-width{
+        width: 100%;
+    }
+    h1{
+        text-align: center;
+    }
+    .dream-big{
+        flex-direction:column-reverse;
+    }
+    .experience-container{
+        flex-direction: column;
+    }
+    .right-experience{
+        margin-top: 30px;
+        width: 80%;
+    }
+    .left-experience{
+        width: 80%;
+    }
+}
+
