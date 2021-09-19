@@ -138,8 +138,14 @@ footer{
     .half-width{
         width: 100%;
     }
+    .half-width img{
+        text-align: center;
+        width: 100%;
+    }
     h1{
         text-align: center;
+        font-size:40px;
+        line-height: 70px;
     }
     .dream-big{
         flex-direction:column-reverse;
@@ -153,12 +159,16 @@ footer{
     }
     .left-experience{
         width: 80%;
+        margin-top: 30px;
     }
     .dream-big-content{
         padding: 50px;
     }
     .button-area{
         width: 100%;
+    }
+    .dream-big img{
+        text-align: center;
     }
 }
 
